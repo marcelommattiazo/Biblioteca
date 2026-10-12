@@ -1,4 +1,4 @@
-const CACHE = 'biblioteca-1790730055';
+const CACHE = 'biblioteca-1791770611330';
 const ARQUIVOS = ['./', './index.html', './manifest.json', './icone-192.png', './icone-512.png', './icone-180.png', './icone-maskable-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARQUIVOS)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
